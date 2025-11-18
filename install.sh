@@ -254,7 +254,7 @@ elif [ "$choice" -eq 4 ]; then
         echo $'\e[32mUpdating Gost, please wait...\e[0m'
         # Save install.sh in /etc/gost directory
         sudo mkdir -p /etc/gost
-wget -O /etc/gost/install.sh https://github.com/masoudgb/Gost-ip6/raw/main/install.sh
+wget -O /etc/gost/install.sh https://github.com/xmohammad1/Gost-ip6/raw/main/install.sh
 chmod +x /etc/gost/install.sh
         echo $'\e[32mUpdate completed.\e[0m'
     else
